@@ -6,7 +6,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const FileUpload = () => {
   const [file, setFile] = useState('');
-  const [defaultImg, changeDefaultImg] = useState('https://firebasestorage.googleapis.com/v0/b/image-uploader-aab31.appspot.com/o/images%2Fdefault.png?alt=media&token=e08a4c1c-7979-4988-8b2e-f1e47cd2ee00');
+  const defaultImg = 'https://firebasestorage.googleapis.com/v0/b/image-uploader-aab31.appspot.com/o/images%2Fdefault.png?alt=media&token=e08a4c1c-7979-4988-8b2e-f1e47cd2ee00';
   const [filename, setFilename] = useState('Choose File');
   const [uploadedFile, setUploadedFile] = useState('');
   const [message, setMessage] = useState('');
